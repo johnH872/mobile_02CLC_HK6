@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="tittle">Bài tập LAB2</string>
+    <string name="welcome">in nghiêng, đậm, in hoa</string>
+    <string name="label_1">Nhập tự động in hoa: </string>
+    <string name="temp_text">văn bản gợi ý</string>
+    <string name="label_2">Không cho sửa: </string>
+    <string name="temp_text2">No change</string>
+    <string name="label_3">Không cursor: </string>
+    <string name="temp_text3">No cursor</string>
+    <string name="label_4">Nhập mật khẩu: </string>
+    <string name="temp_text4">password</string>
+    <string name="label_5">Nhập số điện thoại: </string>
+    <string name="temp_text5">Phone</string>
+    <string name="label_6">Nhập Date: </string>
+    <string name="temp_text6">Date</string>
+    <string name="highlight_text">Change highlight color and selectable</string>
+    <string name="gravity">center gravity</string>
+</resources>
