@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TaDuyHoang_week2</string>
+    <string name="label_user_name">User Name: </string>
+    <string name="hint_user_name">User Name</string>
+    <string name="label_phone_no">Phone No: </string>
+    <string name="hint_phone_no">Phone No.</string>
+    <string name="label_email">Email Id: </string>
+    <string name="hint_email">Email Id</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="submit_button">Submit</string>
+</resources>
