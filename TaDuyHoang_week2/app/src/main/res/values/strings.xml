@@ -8,4 +8,9 @@
     <string name="hint_email">Email Id</string>
     <string name="cancel_button">Cancel</string>
     <string name="submit_button">Submit</string>
+<!--    Relative Layouts-->
+    <string name="relative_name">Name</string>
+    <string name="relative_address">Address</string>
+    <string name="relative_subject">Subject</string>
+    <string name="relative_message">Message</string>
 </resources>

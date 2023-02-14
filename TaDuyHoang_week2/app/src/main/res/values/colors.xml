@@ -10,4 +10,5 @@
     <color name="background_edit">#f2f2f2</color>
     <color name="cancel_button">#990000</color>
     <color name="submit_button">#0099cc</color>
+    <color name="background_relative">#99ccff</color>
 </resources>
