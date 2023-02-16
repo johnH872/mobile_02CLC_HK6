@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">miniPlusCalculator_week2</string>
+    <string name="labelA">Input A </string>
+    <string name="labelB">Input B </string>
+    <string name="hintA">Nhập giá trị cho A </string>
+    <string name="hintB">Nhập giá trị cho B </string>
+    <string name="calculate">Calculate A + B</string>
+    <string name="result">A + B </string>
+</resources>
