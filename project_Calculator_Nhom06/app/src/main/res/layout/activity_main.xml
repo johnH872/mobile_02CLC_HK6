@@ -43,6 +43,7 @@
         android:gravity="bottom"
         android:orientation="vertical"
         android:paddingTop="10dp"
+        android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -62,6 +63,17 @@
                 android:layout_weight="1"
                 android:background="@drawable/mybutton"
                 android:text="AC"
+                android:textColor="@color/light_green"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnPercentage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="%"
                 android:textColor="@color/light_green"
                 android:textSize="30dp" />
 
