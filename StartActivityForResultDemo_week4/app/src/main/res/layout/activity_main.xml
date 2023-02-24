@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:background="#e6e6e6"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_number2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:background="#e6e6e6"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Result"
+        android:textColor="@color/black"
+        android:padding="15dp"/>
+    
+    <Button
+        android:id="@+id/button_open_activity2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#cce5ff"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="open Activity 2"/>
+
+</LinearLayout>
