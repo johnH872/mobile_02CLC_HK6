@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void clickStartService() {
         Intent intent = new Intent(this, MyService.class);
         intent.putExtra("key_data_intent",edtDataIntent.getText().toString().trim());
+
         startService(intent);
     }
 
