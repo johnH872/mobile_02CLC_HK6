@@ -49,6 +49,7 @@ public class MyService extends Service {
 
     private void sendNotification(Song song) {
         Intent intent = new Intent(this, MainActivity.class);
+        // Ấn vào nó hiển thị lại ứng dụng đang xài
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), song.getImage());
