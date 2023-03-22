@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestMaterial</string>
+    <string name="album_name">Alec Album songs </string>
+    <string name="album_songQuantity">50 songs</string>
+    <string name="album_creatorName">Created by Johnathan</string>
+    <string name="btn_playText">Play</string>
+    <string name="song_name">Dancing in the club</string>
+    <string name="song_singer">Camila Cabello</string>
+</resources>

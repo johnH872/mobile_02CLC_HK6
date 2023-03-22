@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="50dp">
+
+    <Button
+        android:id="@+id/btn_toAlbumActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Album Activity" />
+
+    <Button
+        android:id="@+id/btn_toSingerAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_toAlbumActivity"
+        android:layout_marginTop="70dp"
+        android:text="To Singer Song Activity" />
+
+    <Button
+        android:id="@+id/btn_toFavoriteSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_toSingerAlbum"
+        android:layout_marginTop="70dp"
+        android:text="To Favorite Songs" />
+
+    <Button
+        android:id="@+id/btn_toDownloadedAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_toFavoriteSongs"
+        android:layout_marginTop="70dp"
+        android:text="To Downloaded Album" />
+
+    <Button
+        android:id="@+id/btn_toPlayMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_toDownloadedAlbum"
+        android:layout_marginTop="70dp"
+        android:text="To Play Music" />
+
+</RelativeLayout>
