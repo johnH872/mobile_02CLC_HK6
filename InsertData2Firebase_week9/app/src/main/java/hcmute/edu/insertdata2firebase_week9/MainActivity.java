@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         txtName = findViewById(R.id.edt_name);
         txtAge = findViewById(R.id.edt_age);
         txtPhoneNo = findViewById(R.id.edt_phoneNo);
-        txtHeight = findViewById(R.id.edt_age);
+        txtHeight = findViewById(R.id.edt_height);
         btnSave = findViewById(R.id.btn_save);
         reff = FirebaseDatabase.getInstance().getReference().child("Member");
         member = new Member();
