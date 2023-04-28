@@ -13,6 +13,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
@@ -86,8 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     return reference.getDownloadUrl();
                 }
-            })
-                    .addOnCompleteListener(new OnCompleteListener<Uri>() {
+            }).addOnCompleteListener(new OnCompleteListener<Uri>() {
                         @Override
                         public void onComplete(@NonNull Task<Uri> task) {
                             if (task.isSuccessful()) {
@@ -98,7 +98,9 @@ public class MainActivity extends AppCompatActivity {
                                 member.setVideoUrl(downloadUri.toString());
                                 member.setSearch(search);
                                 String i = databaseReference.push().getKey();
-                                databaseReference.child(i).setValue(member);
+                                Log.e("Key", i);
+                                Log.e("Uri", downloadUri.toString());
+                                databaseReference.child("S01").setValue(member);
                             } else {
                                 Toast.makeText(MainActivity.this, "failed", Toast.LENGTH_SHORT).show();
                             }
