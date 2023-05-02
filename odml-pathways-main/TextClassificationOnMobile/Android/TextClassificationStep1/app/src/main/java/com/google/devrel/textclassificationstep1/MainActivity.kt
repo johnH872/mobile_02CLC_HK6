@@ -20,6 +20,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
+import com.google.devrel.textclassificationstep1.helpers.TextClassificationClient
+import org.tensorflow.lite.support.label.Category
+
 class MainActivity : AppCompatActivity() {
     lateinit var txtInput: EditText
     lateinit var btnSendText: Button
